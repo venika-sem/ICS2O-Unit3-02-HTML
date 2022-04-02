@@ -14,8 +14,8 @@ function calculate() {
   const heightOfPyramid = parseFloat(document.getElementById('height-of-pyramid').value)
 
    // process
-  const volume = ((lenghtOfPyramid * widthOfPyramid) / 2) * heightOfPyramid
+  const volume = (lenghtOfPyramid * widthOfPyramid * heightOfPyramid) / 3 
 
   // output
-  document.getElementById('volume').innerHTML = '<p>The volume is: ' + volume.toFixed(2) + ' cm²</p>'
+  document.getElementById('volume').innerHTML = '<p>The volume is: ' + volume.toFixed(2) + ' cm³</p>'
 }
